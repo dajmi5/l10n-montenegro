@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="res_company_form_vat_xk__inherit_view" model="ir.ui.view">
+        <field name="name">res.company.form.vat.xk..inherit.view</field>
+        <field name="model">res.company</field>
+        <field name="view_type">form</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+          <field name="vat" position="after">
+              <field name="kosovo" invisible="1"/>
+              <field name="l10n_xk_fiskal"/>
+              <field name="l10n_xk_biznesit"/>
+            </field>
+        </field>
+    </record>
+</odoo>

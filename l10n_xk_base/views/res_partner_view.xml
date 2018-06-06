@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="res_partner_vat_xk_inherit_view" model="ir.ui.view">
+        <field name="name">res.partner.vat.xk.inherit.view</field>
+        <field name="model">res.partner</field>
+        <field name="view_type">form</field>
+        <field name="inherit_id" ref="account.view_partner_property_form"/>
+            <field name="arch" type="xml">
+                <field name="property_account_position_id" position="after">
+                    <field name="kosovo" invisible="1"/>
+                    <field name="l10n_xk_biznesit" placeholder="7xxxx or 8xxxx"
+                           attrs="{'invisible': [('kosovo','=',False)]}"/>
+                    <field name="l10n_xk_fiskal" placeholder="6xxxx"
+                           attrs="{'invisible': [('kosovo','=',False)]}"/>
+                </field>
+        </field>
+    </record>
+</odoo>

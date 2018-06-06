@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Kosovo banks, to be removed to l10n_xk_base, once... -->
+        <record id="res_bank_xk_rba" model="res.bank">
+            <field name="country" ref="base.xk"/>
+            <field name="vbb_code"></field>
+            <field name="bic">RBKO XK PR</field>
+            <field name="name">Raiffeisen Bank Kosovo J.S.C.</field>
+            <field name="zip">10000</field>
+            <field name="city">Prishtinë</field>
+            <field name="street">Rruga UÇK, nr. 191</field>
+        </record>
+        <record id="res_bank_xk_procred" model="res.bank">
+            <field name="country" ref="base.xk"/>
+            <field name="vbb_code"></field>
+            <field name="bic">MBKO XK PR</field>
+            <field name="name">ProCredit banka</field>
+            <field name="zip">10000</field>
+            <field name="city">Prishtinë</field>
+            <field name="street">Ul. Majke Tereze br. 16</field>
+        </record>
+        <record id="res_bank_xk_bek" model="res.bank">
+            <field name="country" ref="base.xk"/>
+            <field name="vbb_code"></field>
+            <field name="bic">EKOM XK PR</field>
+            <field name="name">Banka Ekonomike</field>
+            <field name="zip">10000</field>
+            <field name="city">Prishtinë</field>
+            <field name="street">Ul. Migjeni br.1</field>
+        </record>
+		<record id="res_bank_xk_bpb" model="res.bank">
+            <field name="country" ref="base.xk"/>
+            <field name="vbb_code"></field>
+            <field name="bic">BPBX XK PR</field>
+            <field name="name">Banka Per Biznis</field>
+            <field name="zip">10000</field>
+            <field name="city">Prishtinë</field>
+            <field name="street">Rr.UÇK, nr.153</field>
+        </record>
+		<record id="res_bank_xk_nlb" model="res.bank">
+            <field name="country" ref="base.xk"/>
+            <field name="vbb_code"></field>
+            <field name="bic">NLPR XK PR</field>
+            <field name="name">NLB Pristina</field>
+            <field name="zip">10000</field>
+            <field name="city">Prishtinë</field>
+            <field name="street">REXHEP LUCI NO.5</field>
+        </record>
+        <record id="res_bank_xk_teb" model="res.bank">
+            <field name="country" ref="base.xk"/>
+            <field name="vbb_code"></field>
+            <field name="bic">TEBK XK PR</field>
+            <field name="name">TEB Pristina</field>
+            <field name="zip">10000</field>
+            <field name="city">Prishtinë</field>
+            <field name="street">AGIM RAMADANI</field>
+        </record>
+    </data>
+</odoo>
