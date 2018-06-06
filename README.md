@@ -1,2 +1,5 @@
-# l10n-montenegro
-incubator for Montenegro localization
+
+Montenegro localization
+=======================
+
+incubator for localization modules
